@@ -26,6 +26,27 @@ Launch **Sandstone Engine** from the PSP Game menu.
 
 ---
 
+## Troubleshooting
+
+If you're having issues, try the following:
+
+- **Online mode isn't working?** Try connecting to a Wi-Fi network without a
+  password (an open network).
+- **The game won't start?** Disable all PSP plugins and try again.
+
+---
+
+## Recommended setup
+
+- **Custom firmware:** ARK-4 or ARK-5
+- **Official firmware:** PSP 6.61 (latest version)
+- **Hardware:** PSP-3000
+
+The engine should also work on other PSP models, but the PSP-3000 gives the best
+experience.
+
+---
+
 ## Credits
 
 - **SandstoneDev** - engine and converter. Developed with the help of
