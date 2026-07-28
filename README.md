@@ -26,6 +26,27 @@ Launch **Sandstone Engine** from the PSP Game menu.
 
 ---
 
+## This build
+
+Streamed audio now comes straight off the disc. The radio, the venue ambience
+and the cutscene voice track are stored there as SPU ADPCM, which the engine
+decodes directly - no transcoding step, and the result is smaller than the
+compressed audio it replaces.
+
+- **Radio** plays your disc's own stations, with names read from the disc.
+- **Venue ambience** works again: the zone table shipped for a while with no
+  audio behind it, so bars and shops were silent.
+- **Cutscene audio** plays.
+- **Interiors** are whole. A stream decoder kept only the first batch of a
+  multi-batch model, which cost some rooms most of their geometry.
+- **Water, grass, breakable props, map lights, money pickups, the save icon,
+  the mission scripts and the door markers** are all produced by the converter
+  now; several of them had never been.
+- **Hero mods** work in the stock build: drop a pack in `data/mods/` and the
+  character appears in the picker.
+
+---
+
 ## Troubleshooting
 
 If you're having issues, try the following:
