@@ -1,5 +1,11 @@
 # Sandstone Engine
 
+### Join the community: **[discord.gg/wV8x46ZTDu](https://discord.gg/wV8x46ZTDu)**
+
+Builds, help with setup, bug reports and news all live there.
+
+---
+
 A from-scratch game engine for the **Sony PSP**.
 
 The engine binary (`EBOOT.PBP`) is here. Its data is not - you build that
